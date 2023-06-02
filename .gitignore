@@ -1,0 +1,10 @@
+.DS_Store
+dist/
+node_modules/
+thumbs.db
+.yarnclean
+logs/
+/src/main/libs/polygon-utils
+/.pnp
+.pnp.js
+
