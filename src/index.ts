@@ -113,11 +113,11 @@ function wait(milliseconds) {
               }
             }
             if (!isNaN(parseInt(checkPutSales))) {
-              if (+currentRow[12] <= 0.999 && +currentRow[12] <= 0.02) {
-                putsArray.push(currentRow[0]);
+              if (+currentRow[12] <= 0.999 && +currentRow[12] > 0.02) {
+                putsArray.push(currentRow[7]);
               }
               if (+currentRow[12] === 0) {
-                noPricePuts.push(currentRow[0]);
+                noPricePuts.push(currentRow[7]);
               }
             }
           }
