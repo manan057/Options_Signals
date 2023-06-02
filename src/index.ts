@@ -25,7 +25,7 @@ function wait(milliseconds) {
   await page.keyboard.type('');
 
   await wait(1000);
-  await page.focus('');
+  await page.focus('#password');
   await page.keyboard.type('');
 
   await wait(1000);
