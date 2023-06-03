@@ -21,6 +21,8 @@ Projects
 
 # STRIKING ON GOLD
 
+==> Have your strategy around TP (Target Price) or TT (Target Time)
+
 # -----------------------------
 
 # Analysed strategy of cheap options (If expiry >= 6 months buy easy)
@@ -40,7 +42,7 @@ Cheap calls on the other hand
 
 ## BUYING OPPORTUNITY FOR
 
-NABC67
+NABC67 (Volume / Open Int. 40 / 271)
 vs
 NABUR9 / NABUD9 (check if this is cheap) --> more time
 NABBK9 / NABB97 (safe price)
