@@ -105,7 +105,7 @@ function wait(milliseconds) {
             const checkCallSales = currentRow[4];
             const checkPutSales = currentRow[11];
             if (!isNaN(parseInt(checkCallSales))) {
-              if (+currentRow[5] <= 0.999 && +currentRow[5] > 0.02) {
+              if (+currentRow[5] <= 0.2 && +currentRow[5] > 0.02) {
                 callsArray.push(currentRow[0]);
               }
               if (+currentRow[5] === 0) {
@@ -113,7 +113,7 @@ function wait(milliseconds) {
               }
             }
             if (!isNaN(parseInt(checkPutSales))) {
-              if (+currentRow[12] <= 0.999 && +currentRow[12] > 0.02) {
+              if (+currentRow[12] <= 0.2 && +currentRow[12] > 0.02) {
                 putsArray.push(currentRow[7]);
               }
               if (+currentRow[12] === 0) {
@@ -143,7 +143,7 @@ function wait(milliseconds) {
     console.log(noPricePuts);
   }
 
-  await checkTickers(['BHP', 'WOW', 'CBA']);
+  await checkTickers(['BHP', 'WOW', 'CBA', 'RIO', 'ANZ', 'NAB', 'WES', 'MQG', 'APT']);
 
   console.log('####### FINISH ##########');
 
