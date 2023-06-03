@@ -23,6 +23,8 @@ Projects
 
 ==> Have your strategy around TP (Target Price) or TT (Target Time)
 
+- Check for Vol and Open Interest whether it is growing or increasing
+
 # -----------------------------
 
 # Analysed strategy of cheap options (If expiry >= 6 months buy easy)
