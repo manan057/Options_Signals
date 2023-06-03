@@ -47,6 +47,8 @@ function wait(milliseconds) {
         },
       );
 
+      console.log(`Going through: ${ticker[i]}`);
+
       // Go to derviatives section
       // const derivativesLink = await page.$x("//a[contains(., 'Derivatives')]")
       // await clickByText(page, `Derivatives`);
@@ -143,9 +145,13 @@ function wait(milliseconds) {
     console.log(noPricePuts);
   }
 
-  await checkTickers(['BHP', 'WOW', 'CBA', 'RIO', 'ANZ', 'NAB', 'WES', 'MQG', 'APT']);
+  // STW AND XJO??
+  await checkTickers(['BHP', 'WOW', 'CBA', 'RIO', 'ANZ', 'NAB', 'WES', 'MQG']);
+  // await checkTickers(['AGL', 'ORG', 'GMG', 'IAG', 'MPL', 'SUN', 'BEN', 'BOQ', 'QBE']);
+  // await checkTickers(['SCG', 'GMG', 'TCL', 'APA', 'BXB', 'RHC', 'ANN', 'CWY', 'SDF', 'ALL']);
 
   console.log('####### FINISH ##########');
+  await browser.close();
 
   // iterate over tr:nth-child(${i}) on all rows
   // for (let i = 1; i < countriesLength + 1; i++) {

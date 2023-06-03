@@ -3,8 +3,16 @@
 Implement TS - https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript#step-2-configuring-the-typescript-compiler
 https://gist.github.com/tokland/d3bae3b6d3c1576d8700405829bbdb52
 https://dzuz14.medium.com/how-to-scrape-worldwide-coronavirus-data-in-5-minutes-with-node-js-puppeteer-a15f47026a0b
+https://www.youtube.com/watch?v=Sag-Hz9jJNg
+https://github.com/puppeteer/puppeteer
+
+https://www.incrediblecharts.com/help/asx_option_codes.php
+https://rosser.com.au/options.htm
 
 #TODO:
+
++++ map through the list of your purchases and see if you find something re open interest
+===> check daily
 
 1. Stripe 'In the money' & 'Out the money'
 2. Track the ticker prices
@@ -14,6 +22,7 @@ Projects
 
 - go through indivial $0 priced pages??
 - make the code more readable by adding thing a dictionary of objects
+- try implement (https://stackoverflow.com/questions/62452376/scraping-a-table-with-puppeteer-how-can-i-format-each-td-element-as-an-object-p)
 
 ---
 
@@ -98,3 +107,13 @@ Rock bottom to high
 'Out of the money\nNABW38',
 'Out of the money\nMQGR77'
 ]
+
+====== Calls ========
+[]
+====== PUTS ========
+[ 'SCG7N7', 'IAGVI8', 'APA4J9' ]
+====== Zero $$ Calls ========
+[]
+====== Zero $$ PUTS ========
+[ 'Out of the money\nSCGEZ7' ]
+####### FINISH ##########
