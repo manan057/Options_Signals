@@ -22,11 +22,11 @@ function wait(milliseconds) {
 
   // login flow
   await page.focus('#username');
-  await page.keyboard.type('');
+  await page.keyboard.type('55775338');
 
   await wait(1000);
   await page.focus('#password');
-  await page.keyboard.type('');
+  await page.keyboard.type('#100KGoals');
 
   await wait(1000);
   const loginButton = '#login';
